@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 1: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:22:26</sys_created_on>
+        <sys_id>29917448db300010a53d8742399619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Automated Test Framework" source="x_364029_automated">23cf2440db300010a53d874239961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Test Framework">23cf2440db300010a53d874239961994</sys_scope>
+        <sys_update_name>sys_atf_step_29917448db300010a53d8742399619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:22:26</sys_updated_on>
+        <table/>
+        <test display_value="Automated creation of Distinct records">7b40f008db300010a53d874239961975</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=29917448db300010a53d8742399619cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>29917448db300010a53d8742399619cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:22:26</sys_created_on>
+        <sys_id>34a13888db300010a53d8742399619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:22:26</sys_updated_on>
+        <value/>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=29917448db300010a53d8742399619cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>29917448db300010a53d8742399619cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:22:26</sys_created_on>
+        <sys_id>b0a13888db300010a53d8742399619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:22:26</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['2311f848db300010a53d874239961962'].user}}</value>
+    </sys_element_mapping>
+</record_update>

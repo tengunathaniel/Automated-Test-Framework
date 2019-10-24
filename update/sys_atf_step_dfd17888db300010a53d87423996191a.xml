@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that at least the following modules are visible: Test Records, Extended Records, Distinct Records</description>
+        <display_name>Module Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot display_value="e17cd4ad75a2ed94c3593d0e2abd8a31">f22234c8db300010a53d874239961942</snapshot>
+        <step_config display_value="Module Visibility">f7cfc1973702030064a52f3c8e41f1d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:23:46</sys_created_on>
+        <sys_id>dfd17888db300010a53d87423996191a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Module Visibility</sys_name>
+        <sys_package display_value="Automated Test Framework" source="x_364029_automated">23cf2440db300010a53d874239961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Test Framework">23cf2440db300010a53d874239961994</sys_scope>
+        <sys_update_name>sys_atf_step_dfd17888db300010a53d87423996191a</sys_update_name>
+        <sys_updated_by>b712f4c8db300010a53d87423996197c</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:24:49</sys_updated_on>
+        <table/>
+        <test display_value="Automated creation of Distinct records">7b40f008db300010a53d874239961975</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dfd17888db300010a53d87423996191a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfd17888db300010a53d87423996191a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:23:46</sys_created_on>
+        <sys_id>28f1b848db300010a53d874239961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:23:46</sys_updated_on>
+        <value>at_least_modules_not_visible</value>
+        <variable display_value="">8570e0e33756030064a52f3c8e41f16c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfd17888db300010a53d87423996191a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:23:46</sys_created_on>
+        <sys_id>64f1b848db300010a53d874239961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:23:46</sys_updated_on>
+        <value>at_least_modules_visible</value>
+        <variable display_value="">90749dd73702030064a52f3c8e41f12d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfd17888db300010a53d87423996191a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:23:46</sys_created_on>
+        <sys_id>acf1b848db300010a53d874239961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:23:46</sys_updated_on>
+        <value>ae0b4e2bdb600010a53d8742399619d2,f75b4e2bdb600010a53d8742399619d8,84ab862bdb600010a53d874239961927</value>
+        <variable display_value="">4a3319d73702030064a52f3c8e41f1a9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dfd17888db300010a53d87423996191a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:23:46</sys_created_on>
+        <sys_id>e8f1b848db300010a53d874239961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:23:46</sys_updated_on>
+        <value/>
+        <variable display_value="">932d14a33756030064a52f3c8e41f120</variable>
+    </sys_variable_value>
+</record_update>

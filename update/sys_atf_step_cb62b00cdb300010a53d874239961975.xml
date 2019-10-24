@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the values on the form as follows:
+Test Checkbox = true
+and Task Records = INC0000001</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:26:58</sys_created_on>
+        <sys_id>cb62b00cdb300010a53d874239961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Automated Test Framework" source="x_364029_automated">23cf2440db300010a53d874239961994</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Test Framework">23cf2440db300010a53d874239961994</sys_scope>
+        <sys_update_name>sys_atf_step_cb62b00cdb300010a53d874239961975</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:26:58</sys_updated_on>
+        <table>x_364029_trf_extended_table</table>
+        <test display_value="Automated creation of Distinct records">7b40f008db300010a53d874239961975</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=cb62b00cdb300010a53d874239961975"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cb62b00cdb300010a53d874239961975</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:26:58</sys_created_on>
+        <sys_id>dba2b00cdb300010a53d87423996196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:26:58</sys_updated_on>
+        <value>x_364029_trf_extended_table</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cb62b00cdb300010a53d874239961975</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 21:26:58</sys_created_on>
+        <sys_id>dfa2b00cdb300010a53d87423996196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-24 21:26:58</sys_updated_on>
+        <value>test_checkbox=true^task_records=9c573169c611228700193229fff72400^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+</record_update>
